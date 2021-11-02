@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  NavLink,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CustomNav from "../Components/CustomNav";
 import Contact from "../Pages/Contact";
 import Projects from "../Pages/Projects";

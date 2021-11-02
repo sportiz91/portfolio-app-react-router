@@ -1,3 +1,6 @@
+import Data from "../Components/Data";
+import Socials from "../Components/Socials";
+
 const Home = () => {
   return (
     <main>
@@ -14,18 +17,9 @@ const Home = () => {
 
         <div className="end-wrapper">
           <div className="end-wrapper__social-icons">
-            <a href="#!" className="social-icons--emoji">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#!" className="social-icons--emoji">
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a href="#!" className="social-icons--emoji">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#!" className="social-icons--emoji">
-              <i className="fab fa-github"></i>
-            </a>
+            {Data[0].socials.map((item) => {
+              return <Socials classN={item.class} key={item.id} />;
+            })}
           </div>
 
           <footer>© Copyright 2019</footer>
