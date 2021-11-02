@@ -1,6 +1,6 @@
 # React Portfolio App
 
-Second App done using React. In this case, we use `create-react-app` and `react-router`. The gol of the project was to practice my `react-router` skills.
+Second App done using React. In this case, we use `create-react-app` and `react-router`. The goal of the project was to practice my `react-router` skills.
 
 # Table of Contents
 
